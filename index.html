@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" href="calculator.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/af01a609c1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <p>Percentage Calculator by Dhanush H V</p>
+    </header>
+    <p class="note"><b>Note:</b> Enter <b>'Tab'</b> for next tab and give '0' for the empty tabs</p>
+    <div class="account">
+      <a>Name: </a>
+      <input type="text" placeholder="Enter your name" id="name">
+    </div>
+    <div class="inputs" style="text-align: center;margin-top: 125px;">
+      <ul>
+        <li>
+          <a>Subject1:</a>
+          <input type="number" placeholder="Enter Marks" id="val1">
+        </li>
+        <li>
+          <a>Subject2:</a>
+          <input type="number" placeholder="Enter Marks" id="val2">
+        </li>
+        <li>
+          <a>Subject3:</a>
+          <input type="number" placeholder="Enter Marks" id="val3">
+        </li>
+        <li>
+          <a>Subject4:</a>
+          <input type="number" placeholder="Enter Marks" id="val4">
+        </li>
+        <br>
+        <li>
+          <a>Subject5:</a>
+          <input type="number" placeholder="Enter Marks" id="val5">
+        </li>
+        <li>
+          <a>Subject6:</a>
+          <input type="number" placeholder="Enter Marks" id="val6">
+        </li>
+        <li>
+          <a>Subject7:</a>
+          <input type="number" placeholder="Enter Marks" id="val7">
+        </li>
+        <li>
+          <a>Subject8:</a>
+          <input type="number" placeholder="Enter Marks" id="val8">
+        </li>
+      </ul>
+    </div>
+    <div class="cal">
+      <button onclick="fun()">
+        <i class="fa fa-pencil"></i>
+        Calculate
+      </button>
+    </div>
+    <br>
+    <div class="result">
+      <table border="0">
+        <caption id="caption">Result</caption>
+        <tr>
+          <th>User Name</th>
+          <td id="user">Null</td>
+        </tr>
+        <tr>
+          <th>Percentage</th>
+          <td id="pct">Null</td>
+        </tr>
+        <tr>
+          <th>Maximum Marks</th>
+          <td id="max">Null</td>
+        </tr>
+        <tr>
+          <th>Total Marks</th>
+          <td id="total">Null</td>
+        </tr>
+        <tr>
+          <th>Lose Marks</th>
+          <td id="lose">Null</td>
+        </tr>
+      </table>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

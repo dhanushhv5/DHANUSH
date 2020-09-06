@@ -1,0 +1,145 @@
+body
+{
+  background-color: white;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+header
+{
+  background-color: white;
+  font-family: 'Century Gothic';
+  font-size: 25px;
+  font-weight: bold;
+  color: #13678a;
+  text-align: center;
+  padding: 12px;
+  margin: 0;
+  box-shadow: 0 2px 12px 0 #dadada;
+}
+.note
+{
+  font-family: Trebuchet MS;
+  position: fixed;
+  margin-top: -27px;
+  font-size: 12px;
+  animation: note linear infinite 30s;
+}
+@keyframes note
+{
+  0%
+  {
+    margin-left: 0;
+  }
+  50%
+  {
+    margin-left: 78%;
+  }
+  100%
+  {
+    margin-right: 0%;
+  }
+}
+.account
+{
+  float: right;
+  margin: 25px;
+}
+.account a
+{
+  font-family: Segoe UI;
+  color: black;
+  font-weight: bold;
+}
+.account input
+{
+  padding: 12px;
+  font-family: Segoe UI;
+  color: blue;
+  outline: none;
+  border: solid 1.5px transparent;
+  border-bottom: solid 1.5px #dadada;
+}
+.inputs ul li
+{
+  list-style: none;
+  margin: 12px;
+  display: inline-block;
+}
+.inputs ul li a
+{
+  font-family: cursive;
+  font-weight: bold;
+  color: blue;
+}
+.inputs ul li input
+{
+  border: solid 1.5px #dadada;
+  padding: 12px 12px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Segoe ui";
+  font-weight: bold;
+  color: #2a4f70;
+}
+
+.cal
+{
+  text-align: center;
+  padding: 12px;
+}
+.cal button
+{
+  padding: 12px 12px;
+  width: 180px;
+  outline: none;
+  background-color: #ffffff;
+  border: solid 1.5px #0f62d0;
+  color: #0f62d0;
+  font-family: segoe ui;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.cal button:hover
+{
+  background-color: #0f62d0;
+  color: white;
+}
+.result
+{
+  justify-content: center;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+table
+{
+  text-align: justify;
+  font-family: Segoe UI;
+  width: 100%;
+}
+table tr th
+{
+  padding: 5px;
+  text-align: justify;
+}
+table tr td
+{
+  padding: 5px;
+  text-align: right;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+caption
+{
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  font-family: Bahnschrift;
+  font-weight: bold;
+  font-size: 18px;
+  background: linear-gradient(-45deg, blue,darkblue,blue);
+  color:white;
+}
